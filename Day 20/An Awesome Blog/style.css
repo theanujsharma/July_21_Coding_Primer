@@ -1,0 +1,35 @@
+body{
+    width:100%;
+}
+h1{
+    color:#2E7AD3;
+    font-size: 48px;
+    text-align: center;
+}
+h2{
+    color:#104C90;
+    font-size: 32px;
+}
+a{
+    color:#ff9000;
+}
+p{
+    font-size: 16px;
+    padding-top:9px;
+}
+.section{
+    background-color:#f1f1f1;
+    margin:0 auto;
+    width:60%;
+    padding:20px;
+}
+.container{
+    width:70%;
+    margin:0 auto;
+}
+img{
+    width:100%;
+}
+.imgbox{
+    padding-bottom: 25px;
+}

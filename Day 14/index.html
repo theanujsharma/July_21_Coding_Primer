@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Selectors</title>
+</head>
+<body>
+    <h2>Descendent Selector => .container p</h2>
+    <h2>Child Selector => .container > p</h2>
+    <h2>Adjacent Sibling Selector => .container + p</h2>
+    <h2>General Sibling Selector => .container ~ p</h2>
+    <div class="container">
+        <p class="para">I am a paragraph</p>
+        <div>Section1
+            <p>I am third para</p>
+        </div>
+        <div class="para para2">Section2</div>
+        <div>Section3</div>
+        <div>Section4</div>
+        <p id="paragraph">I am second para</p>
+    </div>
+    <p>I am something</p>
+    <p>Am I ?</p>
+    <p>What is this ?</p>
+</body>
+</html>

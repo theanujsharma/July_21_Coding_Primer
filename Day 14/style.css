@@ -1,0 +1,15 @@
+/* *{
+    background-color: brown;
+} */
+.container ~ p{
+    background-color: brown;
+}
+.para{
+    background-color: green;
+}
+#paragraph{
+    background-color: blueviolet;
+}
+.para2{
+    font-style: italic;
+}

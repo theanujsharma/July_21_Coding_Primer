@@ -1,0 +1,48 @@
+.header{
+    background-color: blueviolet;
+}
+.footer{
+    background-color: green;
+}
+.main{
+    background-color: yellow;
+}
+.aside{
+    background-color: orange;
+}
+.article{
+    background-color: red;
+}
+.container{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 400px 1fr;
+    grid-template-areas: 
+    "as h ar"
+    "as m ar"
+    "as f ar";
+}
+/* .header, .footer{
+    grid-column: 2 / -1;
+}
+.aside{
+    grid-row: 1 / -1;
+} */
+.header{
+    grid-area: h;
+}
+.footer{
+    grid-area: f;
+}
+.main{
+    grid-area: m;
+}
+.aside{
+    grid-area: as;
+}
+.article{
+    grid-area: ar;
+}
+
+
+

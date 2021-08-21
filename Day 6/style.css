@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100%; 
+    /* it is the 100% of the screen size  */
+}
+h1{
+    background-color: blue;
+    display:inline;
+}
+span{
+    background-color: chartreuse;
+    display:block;
+}
+ul{
+    list-style: none;
+    display: inline;
+    /* border:1px solid black; */
+    position:absolute;
+    top:5px;
+}
+
+li{
+    display: inline;
+    font-size:32px;
+    margin-left:20px;
+    
+}
+img{
+    display:inline;
+}
+div{
+    margin:20px;
+}
+a{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.section{
+    display: inline-block;
+    /* background-color: chocolate; */
+    width:20%;
+}

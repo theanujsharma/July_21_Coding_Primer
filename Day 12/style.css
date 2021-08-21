@@ -1,0 +1,28 @@
+.container{
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width:100%;
+}
+a{
+    color:black;
+}
+.text{
+    align-self: center;
+}
+.heading{
+    display: block;
+     font-size:36px;
+     font-weight: 900;
+}
+.mercy{
+    text-decoration: underline;
+    font-size:20px;
+    font-weight: 900;
+}
+.image{
+    padding-right:20px;
+}

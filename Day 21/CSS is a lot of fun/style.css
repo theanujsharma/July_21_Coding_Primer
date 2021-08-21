@@ -1,0 +1,52 @@
+body{
+    font-size: 18px;
+}
+h1{
+    color:white;
+    font-size:36px;
+}
+h3, a{
+    color:#ef5839;
+    font-size:24px;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    color:#d4b44c;
+}
+.btn{
+    padding:10px 20px;
+}
+.orange{
+    color:white;
+    background-color:#ef5839;
+}
+.ornage:hover{
+    background-color:#d4b44c;
+    color: #2e354f;
+}
+.white{
+    background-color:white;
+
+}
+.white:hover{
+    background-color:grey;
+}
+.header, .footer{
+    /* background-color:#2e354f; */
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.center{
+    width:620px;
+    margin:0 auto;
+}
+.color{
+    width:100%;
+    background-color:#2e354f;
+}
+.footer p{
+    color:white;
+    font-size: 20px;
+}

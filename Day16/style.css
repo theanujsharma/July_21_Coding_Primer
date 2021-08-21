@@ -1,0 +1,35 @@
+/* .container{
+    display: none;
+    background-color:#c7dee9;
+    display:block;
+    display: inline;
+    width:50%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 5fr;
+    grid-template-rows: 30px 400px 30px;
+}
+.header,.footer{
+    grid-column: 1/-1;
+}
+.container > div{
+    border:1px solid black;
+}
+/* p, h1{
+    display: inline-block;
+}
+h1{
+    position:absolute;
+    position: relative;
+    right:0;
+    left:500px;
+} */
+p{
+    border: 1px solid black;
+}

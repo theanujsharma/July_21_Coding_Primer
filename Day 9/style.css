@@ -1,0 +1,10 @@
+body{
+    width:100%;
+}
+.bg{
+    background-image: url(./RE4r2gN.jpg);
+    background-repeat: no-repeat;
+    width:60%;
+    height:600px;
+    margin:0 auto;
+}

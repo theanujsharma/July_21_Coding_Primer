@@ -1,0 +1,11 @@
+.box{
+    /* background-color: blue; */
+    /* text-align: center; */
+    width:30%; 
+    /* 20% of the body */
+    margin:0 auto;
+}
+img{
+    100% of the box
+    width:100%;
+}
